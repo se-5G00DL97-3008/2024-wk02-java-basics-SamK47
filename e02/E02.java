@@ -10,9 +10,11 @@ class E02 {
         System.out.println("Give another number:");
         int number2 = scanner.nextInt();
 
+        System.out.println("Give a number:");
+        System.out.println("Give another number:");
         System.out.println(number1 + " + " + number2 + " = " + (number1 + number2));
-        System.out.println(number1 + " * " + number2 + " = " + (number1 * number2));
         System.out.println(number1 + " - " + number2 + " = " + (number1 - number2));
+        System.out.println(number1 + " x " + number2 + " = " + (number1 * number2));
         System.out.println(number1 + " / " + number2 + " = " + (number1 / number2));
     }
 }
