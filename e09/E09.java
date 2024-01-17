@@ -16,7 +16,7 @@ class E09 {
             total++;
             sum += number;
             double average = (sum / total);
-            System.out.println(average);
+            System.out.println("Average: "+average);
         }
     }
 }
