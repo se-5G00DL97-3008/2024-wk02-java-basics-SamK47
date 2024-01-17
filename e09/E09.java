@@ -8,7 +8,7 @@ class E09 {
         double sum = 0;
 
         while (true) {
-            System.out.println("Give a test score (-1 to quit):");
+            System.out.println("Give a test score (-1 to quit): ");
             int number = scanner.nextInt();
             if (number == -1) {
                 break;
