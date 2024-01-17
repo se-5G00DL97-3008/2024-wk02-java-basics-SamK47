@@ -11,9 +11,8 @@ class E03 {
             System.out.println("Positive number");
         } else if (number < 0) {
             System.out.println("Negative number");
-        } else if (number ==0){
+        } else {
             System.out.println("The number is zero");
         }
-
     }
 }
