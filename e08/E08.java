@@ -5,14 +5,14 @@ class E08 {
         Scanner scanner = new Scanner(System.in);
         int i = 0;
         while (i < 2) {
-            System.out.println("Enter a number (0 to quit): ");
+            System.out.println("Give a number (0 to quit): ");
             int number = scanner.nextInt();
             if (number == 0) {
                 i = 3;
             } else if (number % 2 != 0) {
-                System.out.println("Odd number");
+                System.out.println("Number is odd");
             } else if (number % 2 == 0) {
-                System.out.println("Even number");
+                System.out.println("Number is even");
             }
         }
     }
