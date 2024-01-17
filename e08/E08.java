@@ -5,7 +5,7 @@ class E08 {
         Scanner scanner = new Scanner(System.in);
         int i = 0;
         while (i < 2) {
-            System.out.println("Enter a number (0 to quit):");
+            System.out.println("Enter a number (0 to quit): ");
             int number = scanner.nextInt();
             if (number == 0) {
                 i = 3;
