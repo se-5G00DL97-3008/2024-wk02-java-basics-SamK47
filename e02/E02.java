@@ -7,8 +7,14 @@ class E02 {
         System.out.println("Give a number:");
         int number1 = scanner.nextInt();
 
-        System.out.println("Give a ddddddddddddddddddddddnumber:");
+        System.out.println("Give another number:");
         int number2 = scanner.nextInt();
+
+        System.out.println("Give a number:");
+        int number3 = scanner.nextInt();
+
+        System.out.println("Give another number:");
+        int number4 = scanner.nextInt();
 
         System.out.println(number1 + " + " + number2 + " = " + (number1 + number2));
         System.out.println(number1 + " - " + number2 + " = " + (number1 - number2));
